@@ -1,0 +1,8 @@
+.metadata/*
+.browser/*
+outgoing/*
+*.bin
+*.hex
+*.a
+*.map
+*.s37
