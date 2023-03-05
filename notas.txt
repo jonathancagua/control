@@ -1,0 +1,5 @@
+Entornos los siguientes comandos:
+Crear entorno virtual:
+	python3 -m venv env
+Ejecutar el entorno virtual:
+	source env/bin/activate

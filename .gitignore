@@ -6,3 +6,4 @@ outgoing/*
 *.a
 *.map
 *.s37
+env/*
