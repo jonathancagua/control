@@ -4,8 +4,9 @@ import time  # for Time
 # Generate file name using Current Date and Time
 
 current_local_time = time.localtime()  # Get Current date time
-filename = time.strftime("%d_%B_%Y_%Hh_%Mm_%Ss", current_local_time)  # 24hour clock format
-filename = 'ard_' + filename + '_daq_log.csv'
+#filename = time.strftime("%d_%B_%Y_%Hh_%Mm_%Ss", current_local_time)  # 24hour clock format
+#filename = 'ard_' + filename + '_daq_log.csv'
+filename = 'daq_log.csv'
 print(f'Created Log File -> {filename}')
 
 # Create a csv File header
